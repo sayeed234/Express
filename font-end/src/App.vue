@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h2>{{kkk}} </h2>
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  data () {
+      return{
+           kkk:'Registration part'
+      }
+  }
 }
 </script>
 
